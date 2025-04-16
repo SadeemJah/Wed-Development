@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Lab Three Task One Feedback Form-->
+<html>
+   <head>
+    <title>Feedback Form</title>
+    <meta charset="UTF-8">
+
+   </head>
+ <body>
+
+  <p>
+    <form method="post" action="http://www.uj.edu.sa.com">
+    <strong> Please complete this form to submit your feedback: </strong>
+
+    <p></p>
+
+    <label> Mr
+    <input name = "status" type = "radio"                  
+     value = "Mr."></label> 
+
+     <label>Mrs
+    <input name = "status" type = "radio"                   
+    value = "Mrs."></label> 
+
+    <label>Ms
+    <input name = "status" type = "radio"                 
+      value = "Ms."></label> 
+
+   </p>
+  </p>
+
+  <p>
+    <label>Name
+    <input name = "name" type = "text" 
+    size = "25" placeholder="Enter your name">           
+    </label>
+   </p> 
+
+  <p>
+    <label>Email
+    <input name = "email" type = "password"  
+    size = "25"   placeholder="Enter your email"
+    pattern="[a-zA-Z0-9]+@[-zA-Z]+\.[a-zA-Z]{2,4}">                     
+    </label>
+   </p>
+  
+  <p>
+      <label> Response: 
+      <select>
+       <option>This is excellent.</option>
+       <option selected>This is okay.</option>
+       <option>This is boring.</option>
+      </select>
+      </label>
+    </p>
+
+  <p>
+    <label>Comments: <br>
+    <textarea name="comments"
+     rows = "4" cols = "36">Enter comments here.</textarea> 
+    </label>
+  </p>
+
+  <p>
+    <input type="submit" value="Send My Feedback">
+    </p>
+
+  </form>
+ </body>
+</html>
